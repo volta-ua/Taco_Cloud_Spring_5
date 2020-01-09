@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="tacos.data.JdbcOrderRepository" project="taco-cloud" 
+    file="/taco-cloud/src/main/java/tacos/data/JdbcOrderRepository.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="202" x="415" y="20"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <component id="2" language="java" name="src/main/resources" project="taco-cloud" file="/taco-cloud/src/main/resources" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="39" width="114" x="261" y="20"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </component>  
+  <class id="3" language="java" name="tacos.web.WebConfig" project="taco-cloud" 
+    file="/taco-cloud/src/main/java/tacos/web/WebConfig.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="265" x="657" y="20"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="tacos.HomeControllerTest" project="taco-cloud" 
+    file="/taco-cloud/src/test/java/tacos/HomeControllerTest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="137" x="962" y="20"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="tacos.Taco" project="taco-cloud" file="/taco-cloud/src/main/java/tacos/Taco.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="201" x="1853" y="807"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <component id="6" language="java" name="src/main/java" project="taco-cloud" file="/taco-cloud/src/main/java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="39" width="114" x="1139" y="20"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </component>  
+  <class id="7" language="java" name="tacos.web.OrderController" project="taco-cloud" 
+    file="/taco-cloud/src/main/java/tacos/web/OrderController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="193" x="1293" y="20"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="tacos.TacoCloudApplication" project="taco-cloud" 
+    file="/taco-cloud/src/main/java/tacos/TacoCloudApplication.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="146" x="1526" y="20"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="tacos.data.IngredientRepository" project="taco-cloud" 
+    file="/taco-cloud/src/main/java/tacos/data/IngredientRepository.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="161" x="2849" y="807"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="10" language="java" name="tacos.web" project="taco-cloud" file="/taco-cloud/src/main/java/tacos/web" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="1712" y="20"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="11" language="java" name="tacos.data" project="taco-cloud" file="/taco-cloud/src/main/java/tacos/data" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="2053" y="20"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="12" language="java" name="tacos.Ingredient" project="taco-cloud" 
+    file="/taco-cloud/src/main/java/tacos/Ingredient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="166" x="1853" y="1198"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <component id="13" language="java" name="src/test/java" project="taco-cloud" file="/taco-cloud/src/test/java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="39" width="114" x="2194" y="20"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </component>  
+  <class id="14" language="java" name="tacos.data.JdbcIngredientRepository" project="taco-cloud" 
+    file="/taco-cloud/src/main/java/tacos/data/JdbcIngredientRepository.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="245" x="2706" y="20"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="15" language="java" name="tacos" project="taco-cloud" file="/taco-cloud/src/test/java/tacos" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="2348" y="20"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <enumeration id="16" language="java" name="tacos.Ingredient.Type" project="taco-cloud" 
+    file="/taco-cloud/src/main/java/tacos/Ingredient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="119" x="1853" y="1481"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <interface id="17" language="java" name="tacos.data.OrderRepository" project="taco-cloud" 
+    file="/taco-cloud/src/main/java/tacos/data/OrderRepository.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="118" x="415" y="807"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="18" language="java" name="tacos.TacoCloudApplicationTests" project="taco-cloud" 
+    file="/taco-cloud/src/test/java/tacos/TacoCloudApplicationTests.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="177" x="2489" y="20"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="tacos.data.JdbcTacoRepository" project="taco-cloud" 
+    file="/taco-cloud/src/main/java/tacos/data/JdbcTacoRepository.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="232" x="3343" y="20"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="tacos.web.DesignTacoController" project="taco-cloud" 
+    file="/taco-cloud/src/main/java/tacos/web/DesignTacoController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="312" x="2991" y="20"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="tacos.Order" project="taco-cloud" 
+    file="/taco-cloud/src/main/java/tacos/Order.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="747" width="160" x="1853" y="20"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="22" language="java" name="tacos.data.TacoRepository" project="taco-cloud" 
+    file="/taco-cloud/src/main/java/tacos/data/TacoRepository.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="112" x="3167" y="807"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <realization id="23">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="22"/>  
+  </realization>  
+  <association id="24">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="25" name="ingredientRepo"/>      
+      <multiplicity id="26" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="27">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <association id="28">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="29" name="tacos"/>      
+      <multiplicity id="30" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="31">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <association id="32">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="33" name="type"/>      
+      <multiplicity id="34" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="35">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="16"/>  
+  </nesting>  
+  <association id="36">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="37" name="ingredients"/>      
+      <multiplicity id="38" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="39">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="40" name="designRepo"/>      
+      <multiplicity id="41" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

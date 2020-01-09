@@ -1,0 +1,42 @@
+h1{ 	
+ 	color:#0f1560;
+ 	font-size: 32pt;
+ 	font-family:fantasy; 	
+}
+
+
+
+span.validationError{
+	color:red;
+	font-family:monospace;
+	font-size: 8pt;
+	font-style: oblique;
+}
+
+
+
+fieldset {
+     min-width: 370px;
+     display: inline-block;      
+          
+     border:10px solid Azure;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;	
+    border-radius:8px;	  
+} 
+ 
+
+ fieldset input{
+     float: right;
+}
+
+input[type=submit] {
+    padding:15px 50px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    font-weight: bold;
+    font-size:large;
+}
