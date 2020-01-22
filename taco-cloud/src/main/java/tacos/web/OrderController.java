@@ -15,7 +15,6 @@ import lombok.extern.slf4j.Slf4j;
 import tacos.Order;
 import tacos.data.OrderRepository;
 
-@Slf4j
 @Controller
 @RequestMapping("/orders")
 @SessionAttributes("order")
@@ -40,7 +39,6 @@ public class OrderController {
 		
 		orderRepo.save(order);
 		sessionStatus.setComplete();
-		log.info("Order : "+order);
 		return "redirect:/";
 	}
 }

@@ -50,7 +50,7 @@ public class DesignTacoController {
 	public Taco taco() {
 		return new Taco();
 	}
-			
+
 	@GetMapping	
 	public String showDesignForm(Model model) {		
 		List<Ingredient> ingredients=new ArrayList<>();
@@ -64,7 +64,7 @@ public class DesignTacoController {
 	}
 				
 	@PostMapping
-	public String processDesign(@Valid @ModelAttribute("design") Taco design, Errors errors, @ModelAttribute Order order) {
+	public String processDesign(@Valid Taco design, Errors errors, @ModelAttribute Order order) {
 		if (errors.hasErrors()){
 			return "design";
 		}

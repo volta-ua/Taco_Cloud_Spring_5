@@ -16,7 +16,6 @@ import lombok.extern.slf4j.Slf4j;
 import tacos.Ingredient;
 import tacos.Taco;
 
-@Slf4j
 @Repository
 public class JdbcTacoRepository implements TacoRepository{
 	
@@ -46,16 +45,14 @@ public class JdbcTacoRepository implements TacoRepository{
 												new Timestamp(taco.getCreatedAt().getTime())));
 		
 		KeyHolder keyHolder=new GeneratedKeyHolder();
-		jdbc.update(psc, keyHolder);
-		
-		log.trace("id is \t"+keyHolder.getKey().longValue());
-		
+		jdbc.update(psc, keyHolder);	
+	
 		return keyHolder.getKey().longValue();
 	}
 	
 	private void saveIngredientToTaco(Ingredient ingredient, long tacoId) {
 		jdbc.update(
-				"insert into Taco_Ingredients (taco, ingredient)"+
+				"insert into Taco_Ingredients (taco, ingredient) "+
 				"values (?, ?)",
 				tacoId, ingredient.getId());
 	}
