@@ -21,7 +21,7 @@ public class Order {
 	@NotBlank(message="Name is required")
 	private String deliveryName;
 	
-	@NotBlank(message="Street is required")	
+	@NotBlank(message="Street is required")
 	private String deliveryStreet;
 	
 	@NotBlank(message="City is required")

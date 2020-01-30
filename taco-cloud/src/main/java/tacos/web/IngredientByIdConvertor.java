@@ -22,8 +22,5 @@ public class IngredientByIdConvertor implements Converter<String, Ingredient>{
 	public Ingredient convert(String id) {
 		return ingredientRepo.findById(id);
 	}
-	
-	
-	
 
 }
