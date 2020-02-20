@@ -3,6 +3,7 @@ import dictionary.PlayerType;
 public class App {
 
 	public static void main(String[] args) throws InterruptedException{
+		
 		Ball ball=new Ball();
 		Player left=new Player(PlayerType.L);
 		Player right=new Player(PlayerType.R);
